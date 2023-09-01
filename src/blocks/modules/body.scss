@@ -1,0 +1,14 @@
+.body {
+  display: flex;
+  font-size: rem(16);
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  scroll-behavior: smooth;
+  @include r(767) {
+    font-size: rem(14);
+  }
+}
