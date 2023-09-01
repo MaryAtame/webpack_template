@@ -1,5 +1,15 @@
-# dranik
-Start template - webpack/scss
+# locky
+Start template - webpack/scss/babel
+
+## Сборка проекта
+`npm run serve` \
+Запуск проекта для локальной разработки
+
+`npm run build` \
+Собирает проект без минификации файлов
+
+`npm run build-minify` \
+Собирает проект, удаляя все комментарии, пробелы, переносы, в JS файлах сокращаются имена функций
 
 ## CSS
 
@@ -13,7 +23,7 @@ Start template - webpack/scss
 
 `
 <svg>
-    <use xlink:href="#icon-camera"></use>
+    <use xlink:href="path/to/sprite.svg#icon-camera"></use>
 </svg>
 `
 
